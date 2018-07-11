@@ -10,10 +10,19 @@
 		DFFA34FB20F51A880069D5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA34FA20F51A880069D5EE /* AppDelegate.swift */; };
 		DFFA350220F51A8B0069D5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFA350120F51A8B0069D5EE /* Assets.xcassets */; };
 		DFFA350520F51A8B0069D5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFA350320F51A8B0069D5EE /* LaunchScreen.storyboard */; };
-		DFFA350F20F521CB0069D5EE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA350E20F521CB0069D5EE /* LoginViewModel.swift */; };
-		DFFA351220F524F70069D5EE /* PasswordDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA351120F524F70069D5EE /* PasswordDataSource.swift */; };
+		DFFA351220F524F70069D5EE /* LoginViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA351120F524F70069D5EE /* LoginViewControllerDataSource.swift */; };
 		DFFA351520F555AA0069D5EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA351320F555AA0069D5EE /* LoginViewController.swift */; };
 		DFFA351620F555AA0069D5EE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFA351420F555AA0069D5EE /* LoginViewController.xib */; };
+		DFFA354320F614880069D5EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA354220F614880069D5EE /* NetworkManager.swift */; };
+		DFFA354B20F635C30069D5EE /* RepoesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA354A20F635C30069D5EE /* RepoesListViewModel.swift */; };
+		DFFA354D20F64AC30069D5EE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA354C20F64AC30069D5EE /* AppCoordinator.swift */; };
+		DFFA354F20F64E7D0069D5EE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA354E20F64E7D0069D5EE /* Enums.swift */; };
+		DFFA355120F64F9C0069D5EE /* LoginDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA355020F64F9C0069D5EE /* LoginDataItem.swift */; };
+		DFFA355620F654CA0069D5EE /* RepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA355420F654CA0069D5EE /* RepoListViewController.swift */; };
+		DFFA355720F654CA0069D5EE /* RepoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFA355520F654CA0069D5EE /* RepoListViewController.xib */; };
+		DFFA355A20F692770069D5EE /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA355920F692770069D5EE /* Protocols.swift */; };
+		DFFA355D20F6934D0069D5EE /* ParserStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA355C20F6934D0069D5EE /* ParserStructs.swift */; };
+		DFFA355F20F696E50069D5EE /* LoginFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA355E20F696E50069D5EE /* LoginFlowCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +31,19 @@
 		DFFA350120F51A8B0069D5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFFA350420F51A8B0069D5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFFA350620F51A8B0069D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFFA350E20F521CB0069D5EE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		DFFA351120F524F70069D5EE /* PasswordDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDataSource.swift; sourceTree = "<group>"; };
+		DFFA351120F524F70069D5EE /* LoginViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerDataSource.swift; sourceTree = "<group>"; };
 		DFFA351320F555AA0069D5EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DFFA351420F555AA0069D5EE /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DFFA354220F614880069D5EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DFFA354A20F635C30069D5EE /* RepoesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoesListViewModel.swift; sourceTree = "<group>"; };
+		DFFA354C20F64AC30069D5EE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DFFA354E20F64E7D0069D5EE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DFFA355020F64F9C0069D5EE /* LoginDataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataItem.swift; sourceTree = "<group>"; };
+		DFFA355420F654CA0069D5EE /* RepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewController.swift; sourceTree = "<group>"; };
+		DFFA355520F654CA0069D5EE /* RepoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoListViewController.xib; sourceTree = "<group>"; };
+		DFFA355920F692770069D5EE /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		DFFA355C20F6934D0069D5EE /* ParserStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserStructs.swift; sourceTree = "<group>"; };
+		DFFA355E20F696E50069D5EE /* LoginFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +77,12 @@
 			isa = PBXGroup;
 			children = (
 				DFFA34FA20F51A880069D5EE /* AppDelegate.swift */,
+				DFFA355C20F6934D0069D5EE /* ParserStructs.swift */,
+				DFFA355920F692770069D5EE /* Protocols.swift */,
+				DFFA354C20F64AC30069D5EE /* AppCoordinator.swift */,
 				DFFA351020F5226D0069D5EE /* Login */,
+				DFFA355B20F692F80069D5EE /* Networking */,
+				DFFA355820F692590069D5EE /* RepoList */,
 				DFFA350120F51A8B0069D5EE /* Assets.xcassets */,
 				DFFA350320F51A8B0069D5EE /* LaunchScreen.storyboard */,
 				DFFA350620F51A8B0069D5EE /* Info.plist */,
@@ -70,12 +93,32 @@
 		DFFA351020F5226D0069D5EE /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DFFA350E20F521CB0069D5EE /* LoginViewModel.swift */,
-				DFFA351120F524F70069D5EE /* PasswordDataSource.swift */,
+				DFFA355E20F696E50069D5EE /* LoginFlowCoordinator.swift */,
+				DFFA351120F524F70069D5EE /* LoginViewControllerDataSource.swift */,
 				DFFA351320F555AA0069D5EE /* LoginViewController.swift */,
+				DFFA354E20F64E7D0069D5EE /* Enums.swift */,
+				DFFA355020F64F9C0069D5EE /* LoginDataItem.swift */,
 				DFFA351420F555AA0069D5EE /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		DFFA355820F692590069D5EE /* RepoList */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA354A20F635C30069D5EE /* RepoesListViewModel.swift */,
+				DFFA355420F654CA0069D5EE /* RepoListViewController.swift */,
+				DFFA355520F654CA0069D5EE /* RepoListViewController.xib */,
+			);
+			path = RepoList;
+			sourceTree = "<group>";
+		};
+		DFFA355B20F692F80069D5EE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA354220F614880069D5EE /* NetworkManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFA355720F654CA0069D5EE /* RepoListViewController.xib in Resources */,
 				DFFA350520F51A8B0069D5EE /* LaunchScreen.storyboard in Resources */,
 				DFFA350220F51A8B0069D5EE /* Assets.xcassets in Resources */,
 				DFFA351620F555AA0069D5EE /* LoginViewController.xib in Resources */,
@@ -149,9 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFA350F20F521CB0069D5EE /* LoginViewModel.swift in Sources */,
-				DFFA351220F524F70069D5EE /* PasswordDataSource.swift in Sources */,
+				DFFA355620F654CA0069D5EE /* RepoListViewController.swift in Sources */,
+				DFFA355120F64F9C0069D5EE /* LoginDataItem.swift in Sources */,
+				DFFA354320F614880069D5EE /* NetworkManager.swift in Sources */,
+				DFFA355A20F692770069D5EE /* Protocols.swift in Sources */,
+				DFFA355F20F696E50069D5EE /* LoginFlowCoordinator.swift in Sources */,
+				DFFA355D20F6934D0069D5EE /* ParserStructs.swift in Sources */,
+				DFFA354F20F64E7D0069D5EE /* Enums.swift in Sources */,
+				DFFA351220F524F70069D5EE /* LoginViewControllerDataSource.swift in Sources */,
 				DFFA351520F555AA0069D5EE /* LoginViewController.swift in Sources */,
+				DFFA354B20F635C30069D5EE /* RepoesListViewModel.swift in Sources */,
+				DFFA354D20F64AC30069D5EE /* AppCoordinator.swift in Sources */,
 				DFFA34FB20F51A880069D5EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HomeSweetHome.GitHubViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HomeSweetHome.GitHubViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

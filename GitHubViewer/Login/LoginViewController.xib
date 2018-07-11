@@ -14,6 +14,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="GitHubViewer" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="c0F-6r-MOv" id="VSB-ch-5wg"/>
                 <outlet property="containerView" destination="nBM-qc-cp7" id="LZl-yZ-h3r"/>
                 <outlet property="containerViewBottomConstraint" destination="9gL-Ua-TI8" id="VSf-fq-kGu"/>
                 <outlet property="containerViewTopConstraint" destination="pFX-5D-Pgr" id="esJ-lg-5iC"/>
@@ -47,6 +48,9 @@
                                 <action selector="submit:" destination="-1" eventType="touchUpInside" id="v8w-Sd-iyf"/>
                             </connections>
                         </button>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="c0F-6r-MOv">
+                            <rect key="frame" x="147" y="564" width="20" height="20"/>
+                        </activityIndicatorView>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BXr-D8-mUv">
                             <rect key="frame" x="0.0" y="454" width="315" height="30"/>
                             <nil key="textColor"/>
@@ -88,7 +92,9 @@
                         <constraint firstItem="BXr-D8-mUv" firstAttribute="leading" secondItem="nBM-qc-cp7" secondAttribute="leading" id="apu-Os-lYD"/>
                         <constraint firstItem="Z5b-10-UYK" firstAttribute="top" secondItem="BXr-D8-mUv" secondAttribute="bottom" constant="15" id="dEg-BZ-BEO"/>
                         <constraint firstItem="w1u-eR-wUd" firstAttribute="top" secondItem="nBM-qc-cp7" secondAttribute="top" constant="44" id="eza-6v-E9G"/>
+                        <constraint firstItem="c0F-6r-MOv" firstAttribute="centerX" secondItem="1UO-sZ-OZm" secondAttribute="centerX" id="jmS-DQ-z4Z"/>
                         <constraint firstAttribute="trailing" secondItem="1Iw-Ai-vu8" secondAttribute="trailing" id="lqo-e6-yUc"/>
+                        <constraint firstItem="c0F-6r-MOv" firstAttribute="centerY" secondItem="1UO-sZ-OZm" secondAttribute="centerY" id="ogu-ST-AhI"/>
                         <constraint firstItem="1UO-sZ-OZm" firstAttribute="centerX" secondItem="nBM-qc-cp7" secondAttribute="centerX" id="sbt-a1-kpk"/>
                         <constraint firstAttribute="trailing" secondItem="BXr-D8-mUv" secondAttribute="trailing" id="wZn-kq-TMp"/>
                         <constraint firstItem="w1u-eR-wUd" firstAttribute="centerX" secondItem="nBM-qc-cp7" secondAttribute="centerX" id="wcr-oB-T4Z"/>
